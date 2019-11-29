@@ -249,16 +249,26 @@
 
 ### devops
 
-#### 马甲包
+#### 1. 马甲包
 
 - [01 - 马甲包 - 工程 - 修改](ios/devops/majiabao/01.md)
 - [02 - 马甲包 - 工程 - 同步](ios/devops/majiabao/02.md)
 
-#### 自动化构建系统
+#### 2. 构建
 
-- [01 - xxx](ios/devops/ci/01.md)
+- [01 - 通用构建系统设计 (iOS 与 Android)](ios/devops/ci/01.md)
+- [02 - 通用 CI 处理层](ios/devops/ci/01.md)
+- [03 - app 版本 更新](ios/devops/ci/01.md)
+- [04 - app 版本 发布](ios/devops/ci/01.md)
+- [05 - app 打包](ios/devops/ci/01.md)
+- [06 - app 上传到 appstore](ios/devops/ci/01.md)
+- [07 - module(组件) 列表](ios/devops/ci/01.md)
+- [08 - module(组件) 发布](ios/devops/ci/01.md)
+- [09 - module(组件) 打包](ios/devops/ci/01.md)
+- [10 - module(组件) 集成](ios/devops/ci/01.md)
+- [11 - dSYM 上传](ios/devops/ci/01.md)
 
-#### MR(Gitlab Merge Request) Pipeline
+#### 3. MR (Gitlab Merge Request) Pipeline
 
 - [01 - 基于 `.gitlab-ci.yml` Pipeline 架构设计](ios/devops/pipeline/01/README.md)
 - [02 - sonar swift](ios/devops/pipeline/02/README.md)
