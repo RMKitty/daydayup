@@ -254,19 +254,20 @@
 - [01 - 马甲包 - 工程 - 修改](ios/devops/majiabao/01.md)
 - [02 - 马甲包 - 工程 - 同步](ios/devops/majiabao/02.md)
 
-#### 2. 构建
+#### 2. 构建系统
 
 - [01 - 通用构建系统设计 (iOS 与 Android)](ios/devops/ci/01.md)
 - [02 - 通用 CI 处理层](ios/devops/ci/01.md)
 - [03 - app 版本 更新](ios/devops/ci/01.md)
 - [04 - app 版本 发布](ios/devops/ci/01.md)
-- [05 - app 打包](ios/devops/ci/01.md)
-- [06 - app 上传到 appstore](ios/devops/ci/01.md)
-- [07 - module(组件) 列表](ios/devops/ci/01.md)
-- [08 - module(组件) 发布](ios/devops/ci/01.md)
-- [09 - module(组件) 打包](ios/devops/ci/01.md)
-- [10 - module(组件) 集成](ios/devops/ci/01.md)
-- [11 - dSYM 上传](ios/devops/ci/01.md)
+- [05 - app 构建出包](ios/devops/ci/01.md)
+- [06 - app appstore 商店包](ios/devops/ci/01.md)
+- [07 - app enterprise 企业包](ios/devops/ci/01.md)
+- [08 - module (组件) 列表](ios/devops/ci/01.md)
+- [09 - module (组件) 发布](ios/devops/ci/01.md)
+- [10 - module (组件) 打包](ios/devops/ci/01.md)
+- [11 - module (组件) 集成](ios/devops/ci/01.md)
+- [12 - dSYM 上传](ios/devops/ci/01.md)
 
 #### 3. MR (Gitlab Merge Request) Pipeline
 
@@ -286,19 +287,19 @@
 
 ### 1. 😀 Ruby 这门语言
 
-[点击我](ruby/01/01.md)
+- [点击我](ruby/01/01.md)
 
 ### 2. 😁 Ruby 学习中即将接触到的各种概念
 
-[点击我](ruby/02/01.md)
+- [点击我](ruby/02/01.md)
 
 ### 3. 😂 使用 RVM 管理 Ruby 开发环境
 
-[点击我](ruby/03/01.md)
+- [点击我](ruby/03/01.md)
 
 ### 4. 😨 令初学者疑惑的 require: cannot load such file -- xxx (LoadError)
 
-[点击我](ruby/04/01.md)
+- [点击我](ruby/04/01.md)
 
 ### 5. 🤣 Bundler : 管理 gem 依赖
 
@@ -325,7 +326,7 @@
 
 #### 2. 变量
 
-[点击我](ruby/06/02/01.md)
+- [点击我](ruby/06/02/01.md)
 
 #### 3. 常用运算符
 
@@ -341,17 +342,17 @@ if/else/switch/times/break/continue ….
 - [01 - 全局 (global) 方法](ruby/06/05/01.md)
 - [02 - 对象 (instance) 方法](ruby/06/05/02.md)
 - [03 - 类 (class) 方法](ruby/06/05/03.md)
-- [04 - 单例类 (singleton class) 方法](ruby/06/05/04.md)
+- [04 - engin class 方法](ruby/08/01.md)
 - [05 - 方法参数](ruby/06/05/05.md)
 - [06 - 获取方法](ruby/06/05/06.md)
 
 #### 6. 代码块
 
-[点击我](ruby/06/06/01.md)
+- [点击我](ruby/06/06/01.md)
 
 #### 7. 方法 与 代码块
 
-[点击我](ruby/06/07/01.md)
+- [点击我](ruby/06/07/01.md)
 
 #### 8. 类与对象
 
@@ -361,58 +362,55 @@ if/else/switch/times/break/continue ….
 - [04 - 继承](ruby/06/08/04.md)
 - [05 - 异常](ruby/06/08/05.md)
 
-### 7.  😄 Ruby 高级语法
+### 7. 😄 模块 (module)
 
-#### 1. 模块 (module)
+- [01 - 基础使用](ruby/07/01.md)
+- [02- include、extend、prepend](ruby/07/02.md)
+- [03 - Gitlab Ruby API 封装](ruby/07/03.md)
+- [04 - require、require_relative、load、autoload](ruby/07/04.md)
 
-- [01 - 基础使用](ruby/07/01/01.md)
-- [02- include、extend、prepend](ruby/07/01/02.md)
-- [03 - Gitlab Ruby API 封装](ruby/07/01/03.md)
-- [04 - require、require_relative、load、autoload](ruby/07/01/04.md)
+### 8. 😄 Meta Programming
 
-#### 2. 消息
+- [01 - engin (singleton) class](ruby/08/01.md)
+- [02 - send](ruby/08/02.md)
+- [03 - method_missing](ruby/08/03.md)
+- [04 - forwardable::def_delegator()](ruby/08/04.md)
+- [05 - 各种钩子 (hook)](ruby/08/05.md)
+- [06 - DSL](ruby/08/06.md)
+- [07 - patch - 01 - patch 生效的条件](ruby/08/07/01.md)
+- [07 - patch - 02 - 打开类, 重写方法实现](ruby/08/07/02.md)
+- [07 - patch - 03 - open class + prepend module](ruby/08/07/03.md)
+- [07 - patch - 04 - refine class + module + using(限制作用域)](ruby/08/07/04.md)
+- [07 - patch - 05 - instance_method + define_method](ruby/08/07/05.md)
+- [07 - patch - 06 - define_method + alias_method + send](ruby/08/07/06.md)
+- [07 - patch - 07 - forwardable + def_delegator](ruby/08/07/07.md)
+- [07 - patch - 08 - 继承 + alias](ruby/08/07/08.md)
+- [07 - patch - 09 - undef + define_method](ruby/08/07/09.md)
+- [07 - patch - 10 - remove_method/undef_method](ruby/08/07/10.md)
+- [07 - patch - 11 - singleton methods](ruby/08/07/11.md)
 
-
-- [01 - message send](ruby/07/02/01.md)
-- [02 - method missing](ruby/07/02/02.md)
-- [03 - message forward](ruby/07/02/03.md)
-
-#### 3. DSL
-
-[点击我](ruby/07/03.md)
-
-#### 4. 各种钩子 (hook)
-
-[点击我](ruby/07/04.md)
-
-#### 5. patch
-
-[点击我](ruby/07/05.md)
-
-### 8. 😅 Ruby 设计模式
+### 9. 😅 Ruby 设计模式
 
 #### 1. SOLID 原则
 
-[点击我](ruby/08/01.md)
+- [SOLID 原则](ruby/09/01.md)
 
 #### 2. 设计模式
 
-- [01 - 单例](ruby/08/02/01.md)
-- [02 - 代理](ruby/08/02/02.md)
+- [01 - 单例](ruby/09/02/01.md)
+- [02 - 代理](ruby/09/02/02.md)
 
-### 9. 😉 手把手教你开发并上线一个 Ruby 软件
+### 10. 😉 手把手教你开发并上线一个 Ruby 软件
 
 - 本地的 开发、调试
 - 发布到 rubygems.org
 - 本地 调试 Ruby 开源库
 
-### 10. 技巧总结
+### 11. 😅 开源项目
 
-- [01 - 文件读写](ruby/09/01/README.md)
+#### 1. gitlab ruby api
 
-### 11. 模拟 gitlab ruby api gem
-
-- [README](ruby/10/README.md)
+- [gitlab ruby api](ruby/10/README.md)
 
 
 
