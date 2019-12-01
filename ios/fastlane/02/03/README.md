@@ -28,7 +28,7 @@ MY_NEW_ACTION_COMMIT=no
 
 
 
-## 2. Array 
+## 2. Array
 
 ```ruby
 FastlaneCore::ConfigItem.new(
@@ -200,7 +200,7 @@ ok.
 
 
 
-## 4. Callback (回调) 
+## 4. Callback (回调)
 
 ### 1. 我的 fastlane/actions/my_action.rb
 
@@ -272,7 +272,7 @@ lane :lan2 do
   callback = lambda do |result|
     UI.message("result = #{result}")
   end
-  
+
   my_action(callback: callback)
 end
 ```
@@ -302,6 +302,16 @@ end
 
 
 ## 5. action 参数 ==校验==
+
+### 1.
+
+```ruby
+verify_block: proc do |value|
+  UI.user_error!("❌ groups nil or empty") unless (value and not value.empty?)
+end,
+```
+
+### 2.
 
 ```ruby
 verify_block = lambda do |value|

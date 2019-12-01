@@ -246,6 +246,7 @@
 - [02 - import ==remote== Fastfile](ios/fastlane/04/02/README.md)
 - [03 - 编写 ==远程重用== Fastfile 注意点](ios/fastlane/04/03/README.md)
 - [04 - 封装 ==可重用== 的 ==lane==](ios/fastlane/04/04/README.md)
+- [05 - action/plugin/lane 选择](ios/fastlane/04/05.md)
 
 ### devops
 
