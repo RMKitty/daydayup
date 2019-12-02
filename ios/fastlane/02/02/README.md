@@ -6,13 +6,13 @@
 
 ### 1. ==fastalne run== 命令行执行 action
 
-#### 1. 
+#### 1.
 
 ```
 fastlane run <action名字> <key1:value1> <key2:value2> ... <keyN:valueN>
 ```
 
-#### 2. 
+#### 2.
 
 ```
 fastlane [tool] --[option]=[value]
@@ -31,7 +31,7 @@ git_commit(
 )
 ```
 
-### 3. rspec 中运行 action
+### 3. rspec 运行 action
 
 ```ruby
 describe Fastlane::Actions::MakeAction do
@@ -44,6 +44,9 @@ describe Fastlane::Actions::MakeAction do
   end
 end
 ```
+
+
+
 
 
 
@@ -155,8 +158,8 @@ module Fastlane
 
           # 2、定义一个数组，拼接所有要执行的shell命令
           cmds = [
-            ("git tag -d #{tageName}" if isRemoveLocationTag), # 删除【本地】git库的标签 
-            ("git push origin :#{tageName}" if isRemoveRemoteTag), # 删除【远程】git库的标签 
+            ("git tag -d #{tageName}" if isRemoveLocationTag), # 删除【本地】git库的标签
+            ("git push origin :#{tageName}" if isRemoveRemoteTag), # 删除【远程】git库的标签
           ].compact() # compact() 过滤掉数组中的nil空值
 
           # 3、执行数组里面的所有的命令
@@ -209,7 +212,7 @@ module Fastlane
             optional:true,# 是不是可以省略
             is_string: false, # true: 是不是字符串
             default_value: true
-          ), 
+          ),
 
           # 参数3. 是否删除远程标签
           FastlaneCore::ConfigItem.new(
@@ -218,7 +221,7 @@ module Fastlane
             optional:true,# 是不是可以省略
             is_string: false, # true: 是不是字符串
             default_value: true
-          ) 
+          )
         ]
       end
 

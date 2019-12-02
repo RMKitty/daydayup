@@ -2,9 +2,6 @@
 
 
 
-# Configuring fastlane
-
-
 ## 1. ==Skip update== check when launching fastlane
 
 set the environment variable `FASTLANE_SKIP_UPDATE_CHECK` to skip the update check
@@ -17,7 +14,7 @@ set the environment variable `FASTLANE_HIDE_CHANGELOG` to hide the detailed chan
 
 ## 3. ==hide timestamps== in each row
 
-set the `FASTLANE_HIDE_TIMESTAMP` environment variable to true (overruled by `--verbose`).
+set the `FASTLANE_HIDE_TIMESTAMP` environment variable to **true** (overruled by `--verbose`).
 
 ## 4. disable output formatting
 

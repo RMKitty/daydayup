@@ -2,33 +2,8 @@
 
 
 
-## 1. lane()
 
-```ruby
-# @param lane_name: 唯一的名字
-# @param block: 回调block块代码
-def lane(lane_name, block)
-	....
-end
-```
-
-
-
-## 2. Fastfile 中定义 lane
-
-```ruby
-lane :lan1 do
-  # 回调代码块中调用其他的action设置函数
-end
-
-lane :lan2 do |options|
-  # 回调代s码块中调用其他的action设置函数
-end
-```
-
-
-
-## 3. lane ==接收== 参数
+## 1. lane ==接收== 参数
 
 ```ruby
 lane :appstore do |options|
@@ -40,7 +15,7 @@ end
 
 
 
-## 4. ==传递== 参数给 lane
+## 2. ==传递== 参数给 lane
 
 ### 1. bundle exec fastlane `<lane_name>` key1:value1 key2:value2
 
@@ -50,7 +25,7 @@ end
 $ fastlane appstore version:2.4.0 build:2.0
 ```
 
-### 2. Fastfile 调用 lane 
+### 2. Fastfile 调用 lane
 
 ```ruby
 lane :appstore do |options|
@@ -66,21 +41,21 @@ lane :job
 end
 ```
 
-### 3. Fastfile 调用 lane && ==手动构造 hash 传入== 
+### 3. Fastfile 调用 lane && ==手动构造 hash 传入==
 
 ```ruby
 lane :add_bugly do |options|
 	version 			= options[:version]
   bugly_app_id 	= options[:bugly_app_id]
   bugly_app_key = options[:bugly_app_key]
-  
+
   # .....
 end
 
 lane :job do |options|
 	version 		= options[:version]
 	build 			= options[:build]
-	
+
 	# 1、根据条件, 构造 lane/action/plugin 需要的【参数 Hash】
 	args = 	if build % 2 == 0
 						{
@@ -95,14 +70,14 @@ lane :job do |options|
 							bugly_app_key: '2222-key'
 						}
 					end
-					
+
 	# 2、调用 lane/action/plugin, 传入【参数 Hash】
 	appstore(args)
 end
 ```
 
 
-## 5. laneA ==调用== laneB (Switching lanes)
+## 3. laneA ==调用== laneB (Switching lanes)
 
 ```ruby
 lane :prepare do
@@ -135,7 +110,7 @@ end
 
 
 
-## 6. laneA ==返回值== laneB
+## 4. laneA ==返回值== laneB
 
 ```ruby
 lane :deploy do |options|
@@ -161,7 +136,7 @@ end
 
 
 
-## 8. Lane ==Context== Properties
+## 5. Lane ==Context== Properties
 
 用于在 **不同的 lane** 之间 **传递数据**
 
@@ -187,35 +162,9 @@ end
 
 
 
-## 9. ==Private== lane
-
-```ruby
-lane :production do
-  # ...
-  build(release: true)
-  appstore # Deploy to the AppStore
-  # ...
-end
-
-lane :beta do
-  # ...
-  build(release: false)
-  crashlytics # Distribute to testers
-  # ...
-end
-
-private_lane :build do |options|
-  # ...
-end
-```
-
-- 1) production 可以调用 build
-- 2) beta 可以调用 build
-- 3) 但是 **bundle exec fastlane build** 就会报错, **build** 不允许被 **外部调用**
 
 
-
-## 10. 示例
+## 7. 示例
 
 ```ruby
 desc "打包成企业版ipa"

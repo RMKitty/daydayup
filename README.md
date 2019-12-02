@@ -210,15 +210,17 @@
 
 #### 01. Fastfile 基础
 
-- [01 - Fastfile 定义、调用 lane](ios/fastlane/01/01/README.md)
-- [02 - ENV 环境变量](ios/fastlane/01/02/README.md)
-- [03 - Appfile Configuration](ios/fastlane/01/03/README.md)
-- [04 - lane hooks](ios/fastlane/01/04/README.md)
-- [05 - fastlane_require() 替代 require() 载入 第三方 gem](ios/fastlane/01/05/README.md)
-- [06 - 代码定义 lane](ios/fastlane/01/06/README.md)
-- [07 - lane 中使用 send(:xxx, args)](ios/fastlane/01/07/README.md)
-- [08 - shell 代码中, 捕获 lane 异常退出](ios/fastlane/01/08/README.md)
-- [09 - run command](ios/fastlane/01/09/README.md)
+- [01 - lane 定义、调用](ios/fastlane/01/01/01/README.md)
+- [02 - lane 详细使用](ios/fastlane/01/01/02/README.md)
+- [03 - lane private lane](ios/fastlane/01/01/03/README.md)
+- [04 - lane 每一项的耗时统计](ios/fastlane/01/01/04/README.md)
+- [05 - lane hooks](ios/fastlane/01/01/05/README.md)
+- [06 - lane 中调用 send](ios/fastlane/01/01/06/README.md)
+- [07 - ENV 环境变量](ios/fastlane/01/02/README.md)
+- [08 - Appfile Configuration](ios/fastlane/01/03/README.md)
+- [09 - fastlane_require() 替代 require() 载入 第三方 gem](ios/fastlane/01/04/README.md)
+- [10 - shell 代码中, 捕获 lane 异常退出](ios/fastlane/01/05/README.md)
+- [11 - run command](ios/fastlane/01/06/README.md)
 
 #### 02. action
 
