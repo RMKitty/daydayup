@@ -44,8 +44,10 @@
 ### 1. 要完成的效果
 
 - 输入1: 一个 git 仓库地址 (注意必须是 ssh 地址)
-- 输入2: 要打的 tag 名
-- 输出3: true 表示 tag 打成功, false 表示 tag 打失败
+- 输入2: branch
+- 输入3: git clone 拷贝到的路径
+- 输入4: 要打的 tag 名
+- 输入5: commit message 信息
 
 ### 2. fastlane/Fastfile
 
@@ -65,10 +67,10 @@ Dir[File.expand_path('git/*.rb', __dir__)].each { |f| import f }
 
 ```ruby
 lane :add_tag do |options|
-  git    = options[:git]
-  branch = options[:branch]
-  path   = options[:path]
-  tag    = options[:tag]
+  git    	= options[:git]
+  branch 	= options[:branch]
+  path   	= options[:path]
+  tag    	= options[:tag]
   message = options[:message]
 
   git_clone(
