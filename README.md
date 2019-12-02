@@ -202,62 +202,14 @@
 
 - [实现](ios/cocoapods/03/README.md)
 
-### fastlane
-
-#### 00. fastlane
-
-- [01 - Configuring fastlane](ios/fastlane/00/README.md)
-
-#### 01. Fastfile 基础
-
-- [01 - lane 定义、调用](ios/fastlane/01/01/01/README.md)
-- [02 - lane 详细使用](ios/fastlane/01/01/02/README.md)
-- [03 - lane private lane](ios/fastlane/01/01/03/README.md)
-- [04 - lane 每一项的耗时统计](ios/fastlane/01/01/04/README.md)
-- [05 - lane hooks](ios/fastlane/01/01/05/README.md)
-- [06 - lane 中调用 send](ios/fastlane/01/01/06/README.md)
-- [07 - ENV 环境变量](ios/fastlane/01/02/README.md)
-- [08 - Appfile Configuration](ios/fastlane/01/03/README.md)
-- [09 - fastlane_require() 替代 require() 载入 第三方 gem](ios/fastlane/01/04/README.md)
-- [10 - shell 代码中, 捕获 lane 异常退出](ios/fastlane/01/05/README.md)
-- [11 - run command](ios/fastlane/01/06/README.md)
-
-#### 02. action
-
-- [01 - lane 与 action 工作目录 (Directory behavior) ==不一样==](ios/fastlane/02/01/README.md)
-- [02 - 自定义 action、运行 action](ios/fastlane/02/02/README.md)
-- [03 - action 参数类型](ios/fastlane/02/03/README.md)
-- [04 - actionA ==传递== 数据给 actionB](ios/fastlane/02/04/README.md)
-- [05 - action 无法在 ==其他 fastlane 项目中复用==](ios/fastlane/02/05/README.md)
-- [06 - fastlane ==禁止== actionA 中, 调用 actionB](ios/fastlane/02/06/README.md)
-- [07 - 指定本地 action 路径](ios/fastlane/02/07/README.md)
-- [08 - Fastlane Helper](ios/fastlane/02/08/README.md)
-- [09 - action 编写总结 (适用于 plugin)](ios/fastlane/02/09/README.md)
-
-#### 03. plugin
-
-- [01 - plugin 解决 action 无法复用的问题](ios/fastlane/03/01/README.md)
-- [02 - plugin 到底是什么?](ios/fastlane/03/02/README.md)
-- [03 - plugin 开发、发布、使用](ios/fastlane/03/03/README.md)
-- [04 - plugin 使用记录](ios/fastlane/03/04/README.md)
-- [05 - fastlane ==禁止== pluginA 中, 调用 pluginB](ios/fastlane/02/06/README.md)
-
-#### 04. Fastfile 高级
-
-- [01 - import ==local== Fastfile](ios/fastlane/04/01/README.md)
-- [02 - import ==remote== Fastfile](ios/fastlane/04/02/README.md)
-- [03 - 编写 ==远程重用== Fastfile 注意点](ios/fastlane/04/03/README.md)
-- [04 - 封装 ==可重用== 的 ==lane==](ios/fastlane/04/04/README.md)
-- [05 - action/plugin/lane 选择](ios/fastlane/04/05.md)
-
 ### devops
 
 #### 1. 马甲包
 
-- [01 - 马甲包 - 工程 - 修改](ios/devops/majiabao/01.md)
-- [02 - 马甲包 - 工程 - 同步](ios/devops/majiabao/02.md)
+- [01 - 马甲包 - 工程配置修改](ios/devops/majiabao/01.md)
+- [02 - 马甲包 - 代码同步](ios/devops/majiabao/02.md)
 
-#### 2. 构建系统
+#### 2. 自动化系统
 
 - [01 - 通用构建系统设计 (iOS 与 Android)](ios/devops/ci/01.md)
 - [02 - 通用 CI 处理层](ios/devops/ci/01.md)
@@ -414,6 +366,58 @@ if/else/switch/times/break/continue ….
 #### 1. gitlab ruby api
 
 - [gitlab ruby api](ruby/10/README.md)
+
+### 12. fastlane
+
+#### 00. fastlane
+
+- [01 - Configuring fastlane](ios/fastlane/00/README.md)
+
+#### 01. Fastfile 基础
+
+- [01 - lane 定义、调用](ios/fastlane/01/01/01/README.md)
+- [02 - lane 详细使用](ios/fastlane/01/01/02/README.md)
+- [03 - lane private lane](ios/fastlane/01/01/03/README.md)
+- [04 - lane 每一项的耗时统计](ios/fastlane/01/01/04/README.md)
+- [05 - lane hooks](ios/fastlane/01/01/05/README.md)
+- [06 - lane 中调用 send](ios/fastlane/01/01/06/README.md)
+- [07 - ENV 环境变量](ios/fastlane/01/02/README.md)
+- [08 - Appfile Configuration](ios/fastlane/01/03/README.md)
+- [09 - fastlane_require() 替代 require() 载入 第三方 gem](ios/fastlane/01/04/README.md)
+- [10 - shell 代码中, 捕获 lane 异常退出](ios/fastlane/01/05/README.md)
+- [11 - run command](ios/fastlane/01/06/README.md)
+
+#### 02. action
+
+- [01 - lane 与 action 工作目录 (Directory behavior) ==不一样==](ios/fastlane/02/01/README.md)
+- [02 - 自定义 action、运行 action](ios/fastlane/02/02/README.md)
+- [03 - action 参数类型](ios/fastlane/02/03/README.md)
+- [04 - actionA ==传递== 数据给 actionB](ios/fastlane/02/04/README.md)
+- [05 - action 无法在 ==其他 fastlane 项目中复用==](ios/fastlane/02/05/README.md)
+- [06 - fastlane ==禁止== actionA 中, 调用 actionB](ios/fastlane/02/06/README.md)
+- [07 - 指定本地 action 路径](ios/fastlane/02/07/README.md)
+- [08 - Fastlane Helper](ios/fastlane/02/08/README.md)
+- [09 - action 编写总结 (适用于 plugin)](ios/fastlane/02/09/README.md)
+
+#### 03. plugin
+
+- [01 - plugin 解决 action 无法复用的问题](ios/fastlane/03/01/README.md)
+- [02 - plugin 到底是什么?](ios/fastlane/03/02/README.md)
+- [03 - plugin 开发、发布、使用](ios/fastlane/03/03/README.md)
+- [04 - plugin 使用记录](ios/fastlane/03/04/README.md)
+- [05 - fastlane ==禁止== pluginA 中, 调用 pluginB](ios/fastlane/02/06/README.md)
+
+#### 04. Fastfile 高级
+
+- [01 - import ==local== Fastfile](ios/fastlane/04/01/README.md)
+- [02 - import ==remote== Fastfile](ios/fastlane/04/02/README.md)
+- [03 - 编写 ==远程重用== Fastfile 注意点](ios/fastlane/04/03/README.md)
+- [04 - 封装 ==可重用== 的 ==lane==](ios/fastlane/04/04/README.md)
+- [05 - action/plugin/lane 选择](ios/fastlane/04/05.md)
+
+#### 05. fastlane 作为独立的脚本项目
+
+- [fastlane 作为独立的脚本项目](ios/fastlane/05/README.md)
 
 
 

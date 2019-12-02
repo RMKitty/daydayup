@@ -1,0 +1,11 @@
+import 'Fastfiles/GitFastfile.rb'
+
+# lane :hello do
+#   add_tag(
+#     git: 'git@github.com:xzhhe/XZHApp.git',
+#     branch: 'master',
+#     path: '/Users/xiongzenghui/Desktop/tmp',
+#     tag: 'v9.9.9',
+#     message: 'this is a tag.'
+#   )
+# end

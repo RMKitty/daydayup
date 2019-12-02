@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="fastlane.lanes">
+    
+    
+    
+      
+      <testcase classname="fastlane.lanes" name="0: git_clone" time="7.697861">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="1: cd /Users/xiongzenghui/Desktop/tmp;git tag -a v9.9.10 -m &quot;this is second tag.&quot;" time="0.019205">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="2: cd /Users/xiongzenghui/Desktop/tmp;git push origin v9.9.10" time="5.759709">
+        
+      </testcase>
+    
+  </testsuite>
+</testsuites>
