@@ -198,10 +198,6 @@
 
 
 
-#### 3. virus
-
-- [实现](ios/cocoapods/03/README.md)
-
 ### devops
 
 #### 1. 马甲包
@@ -246,7 +242,7 @@
 - [07 - ENV 环境变量](ios/fastlane/01/02/README.md)
 - [08 - Appfile Configuration](ios/fastlane/01/03/README.md)
 - [09 - fastlane_require() 替代 require() 载入 第三方 gem](ios/fastlane/01/04/README.md)
-- [10 - shell 代码中, 捕获 lane 异常退出](ios/fastlane/01/05/README.md)
+- [10 - shell 代码, 捕获 lane 异常退出](ios/fastlane/01/05/README.md)
 - [11 - run command](ios/fastlane/01/06/README.md)
 
 #### 02. action

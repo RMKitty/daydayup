@@ -1,3 +1,9 @@
+[TOC]
+
+
+
+## 1. 
+
 ```ruby
 cd toolbox
 bundle exec fastlane pipeline_approve
@@ -9,5 +15,18 @@ if [ $? -ne 0 ]; then
 fi
 
 cd ..
+```
+
+
+
+## 2. 
+
+```ruby
+{
+  cd /Users/xiongzenghui/collect_fastlane/toolbox
+  bundle exec fastlane hello
+} || {
+  echo $?
+}
 ```
 

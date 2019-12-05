@@ -110,7 +110,9 @@ end
 
 
 
-## 4. laneA ==返回值== laneB
+## 4. lane ==返回值==
+
+### 1. lane ==最后一行== 自动作为 ==返回值==
 
 ```ruby
 lane :deploy do |options|
@@ -121,6 +123,53 @@ end
 lane :calculate do |options|
   # ...
   2 + options[:value] # the last line will always be the return value
+end
+```
+
+### 2. SharedValues
+
+```ruby
+module Fastlane
+  module Lanes
+    module SharedValues
+      HELLO = :HELLO
+    end
+  end
+end
+
+lane :hello2 do |options|
+  lane_context[Fastlane::Lanes::SharedValues::HELLO] = {
+    name: 'xiong'
+  }
+end
+
+lane :hello1 do |options|
+  hello2
+  pp lane_context[Fastlane::Lanes::SharedValues::HELLO]
+end
+```
+
+或者
+
+```ruby
+module Fastlane
+  module Lanes
+    module SharedValues
+      HELLO = :HELLO
+    end
+  end
+end
+
+lane :hello2 do |options|
+  Actions.lane_context[Fastlane::Lanes::SharedValues::HELLO] = {
+    name: 'xiong'
+  }
+end
+
+lane :hello do |options|
+  UI.success("✅ hello world!")
+  hello2
+  pp Actions.lane_context[Fastlane::Lanes::SharedValues::HELLO]
 end
 ```
 
