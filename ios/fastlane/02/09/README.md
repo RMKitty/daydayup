@@ -16,3 +16,6 @@
 - 4) 使用一个独立的 ==Fastfile== 组装 ==n个 action== 重用
   - 1) 使用 **plugin** , 那么 **依赖方** 也需要安装 **remote Fastfile** 依赖的 **plugin** (安装 gem)
   - 2) 使用 **action** , 那么 **依赖方** 不需要安装
+
+
+- 5) [Action 类型](https://docs.fastlane.tools/actions/)
