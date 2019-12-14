@@ -48,184 +48,58 @@
 
 
 
-
-## C++
-
-### 1. C++ 与 C
-
-
-### 2. 复合类型
-
-
-
-### 3. 类型转换
-
-
-
-### 4. 函数
-
-
-
-### 5. 引用
-
-
-
-### 6. 名字空间
-
-
-
-### 7. 对象与类 (构造/析构/拷贝构造/赋值)
-
-
-
-### 8. 类 - 方法重载
-
-
-
-### 9. 类 - 继承
-
-
-
-### 10. 类 - 动态内存分配
-
-
-
-### 11. 类 - 抽象、多态
-
-
-
-### 12. static
-
-
-
-### 13. const
-
-
-
-### 14. 友元
-
-
-
-### 15. 异常
-
-
-
-### 16. 函数 - 模板
-
-
-
-### 17. 类 - 模板
-
-
-
-### 18. 智能指针
-
-
-
-### 19. STL (Standard Template Library)
-
-#### 1. 容器
-
-
-
-#### 2. 迭代器
-
-
-
-#### 3. 算法
-
-
-
-### 20. C++ 11
-
-#### 1. 并发编程
-
-
-
-#### 2. 模板元
-
-
-
-### 21. Boost 开源库
-
-
-
-### 22. 读书笔记
-
-- 高级 C/C++ 编译技术
-
-### 23. 面试题
-
-- xxx
-
-
-
 ## iOS
 
-### thread
+### 1. multi thread
+
+- [01 - 进程、线程、并行、并发](ios/multi_thread/01/README.md)
+- [02 - 你能接触到的主流 多线程 API](ios/multi_thread/02/README.md)
+- [03- 线程安全 (Thread Safety) 出现的场景](ios/multi_thread/03/README.md)
+- [04 - 线程安全 (Thread Safety) 解决](ios/multi_thread/04/README.md)
+
+### 2. runloop
 
 
 
-### runloop
+### 3. runtime
 
 
 
-### runtime
+### 4. 组件化
 
 
 
-### 组件化
+### 5. 包体积
 
 
 
-### 包体积
-
-
-
-### cocoapods
+### 6. CocoaPods
 
 #### 1. cocoapods 使用
 
 - [01 - cocoapods 工作原理](ios/cocoapods/01/01/01.md)
 - [02 - cocoapods 组成结构](ios/cocoapods/01/02/02.md)
-- [03 - Podfile](ios/cocoapods/01/02/02.md)
-- [04 - xx.podspec](ios/cocoapods/01/02.md)
-- [05 - xcodeproj](ios/cocoapods/01/02.md)
-- [06 - 替换 cocoapods 一些方法实现](ios/cocoapods/01/02.md)
-- [07 - cocoapods plugin](ios/cocoapods/01/02.md)
+- [03 - Podfile](ios/cocoapods/01/03.md)
+- [04 - xx.podspec](ios/cocoapods/01/04.md)
+
+#### 2. 替换 cocoapods 方法实现
+
+- [01](ios/cocoapods/02/01.md)
+
+#### 3. Plugin
+
+- [01 - cocoapods plugin](ios/cocoapods/03/01/README.md)
+- [02 - cocoapods-binary 源码](ios/cocoapods/03/02/README.md)
+- [03 - 开发一个 plugin](ios/cocoapods/03/03/README.md)
+- [04 - plugin `pod process hook`](ios/cocoapods/03/04/README.md)
+- [05 - plugin `替换 CocoaPods 方法实现`](ios/cocoapods/03/05/README.md)
+- [99 - 二进制化](ios/cocoapods/03/04/README.md)
 
 #### 2. Xcodeproj
 
 
 
-### devops
-
-#### 1. 马甲包
-
-- [01 - 马甲包 - 工程配置修改](ios/devops/majiabao/01.md)
-- [02 - 马甲包 - 代码同步](ios/devops/majiabao/02.md)
-
-#### 2. 自动化系统
-
-- [01 - 通用构建系统设计 (iOS 与 Android)](ios/devops/ci/01.md)
-- [02 - 通用 CI 处理层](ios/devops/ci/01.md)
-- [03 - app 版本 更新](ios/devops/ci/01.md)
-- [04 - app 版本 发布](ios/devops/ci/01.md)
-- [05 - app 构建出包](ios/devops/ci/01.md)
-- [06 - app appstore 商店包](ios/devops/ci/01.md)
-- [07 - app enterprise 企业包](ios/devops/ci/01.md)
-- [08 - module (组件) 列表](ios/devops/ci/01.md)
-- [09 - module (组件) 发布](ios/devops/ci/01.md)
-- [10 - module (组件) 打包](ios/devops/ci/01.md)
-- [11 - module (组件) 集成](ios/devops/ci/01.md)
-- [12 - dSYM 上传](ios/devops/ci/01.md)
-
-#### 3. MR (Gitlab Merge Request) Pipeline
-
-- [01 - 基于 `.gitlab-ci.yml` Pipeline 架构设计](ios/devops/pipeline/01/README.md)
-- [02 - sonar swift](ios/devops/pipeline/02/README.md)
-
-### fastlane
+### 7. fastlane
 
 #### 00. fastlane
 
@@ -276,6 +150,33 @@
 #### 05. fastlane 作为独立的脚本项目
 
 - [fastlane 作为独立的脚本项目](ios/fastlane/05/README.md)
+
+### 8. devops
+
+#### 1. 马甲包
+
+- [01 - 马甲包 - 工程配置修改](ios/devops/majiabao/01.md)
+- [02 - 马甲包 - 代码同步](ios/devops/majiabao/02.md)
+
+#### 2. 自动化系统
+
+- [01 - 通用构建系统设计 (iOS 与 Android)](ios/devops/ci/01.md)
+- [02 - 通用 CI 处理层](ios/devops/ci/01.md)
+- [03 - app 版本 更新](ios/devops/ci/01.md)
+- [04 - app 版本 发布](ios/devops/ci/01.md)
+- [05 - app 构建出包](ios/devops/ci/01.md)
+- [06 - app appstore 商店包](ios/devops/ci/01.md)
+- [07 - app enterprise 企业包](ios/devops/ci/01.md)
+- [08 - module (组件) 列表](ios/devops/ci/01.md)
+- [09 - module (组件) 发布](ios/devops/ci/01.md)
+- [10 - module (组件) 打包](ios/devops/ci/01.md)
+- [11 - module (组件) 集成](ios/devops/ci/01.md)
+- [12 - dSYM 上传](ios/devops/ci/01.md)
+
+#### 3. MR (Gitlab Merge Request) Pipeline
+
+- [01 - 基于 `.gitlab-ci.yml` Pipeline 架构设计](ios/devops/pipeline/01/README.md)
+- [02 - sonar swift](ios/devops/pipeline/02/README.md)
 
 
 
@@ -412,31 +313,19 @@ if/else/switch/times/break/continue ….
 
 
 
-## python
-
-
-
-
-
-## go
-
-
-
-## linux 工具
+## linux
 
 ### 1. make
 
 
 
+### 2. 系统编程
 
-
-## linux 系统编程
-
-### 1. 系统调用 syscall
+#### 1. 系统调用 syscall
 
 - [点击我](linux_02/01/README.md)
 
-### 2. 文件 I/O
+#### 2. 文件 I/O
 
 - [01 - stdio 与 linux io](linux_02/02/01/README.md)
 - [02 - open、read、write](linux_02/02/02/README.md)
@@ -447,9 +336,9 @@ if/else/switch/times/break/continue ….
 - [07 - fcntl](linux_02/02/07/README.md)
 - [08 - dup、dup2](linux_02/02/08/README.md)
 
-### 3. 进程
+#### 3. 进程
 
-#### 1. 进程
+##### 1. 进程
 
 - [01 - 虚拟地址空间](/Users/xiongzenghui/Desktop/daydayup/linux_02/03/01/01/README.md)
 - [02 - 环境变量](/Users/xiongzenghui/Desktop/daydayup/linux_02/03/01/02/README.md)
@@ -457,83 +346,85 @@ if/else/switch/times/break/continue ….
 - [04 - 进程在 linux 内核源码描述](/Users/xiongzenghui/Desktop/daydayup/linux_02/03/01/04/README.md)
 - [05 - exit() 与 `_exit()`_区别](/Users/xiongzenghui/Desktop/daydayup/linux_02/03/01/05/README.md)
 
-#### 2. fork() 创建 子进程
+##### 2. fork() 创建 子进程
 
 - [点击我](/Users/xiongzenghui/Desktop/daydayup/linux_02/03/02/README.md)
 
-#### 3. 僵尸进程 vs 孤儿进程
+##### 3. 僵尸进程 vs 孤儿进程
 
 - [点击我](/Users/xiongzenghui/Desktop/daydayup/linux_02/03/03/README.md)
 
-#### 4. wait 回收 子进程
+##### 4. wait 回收 子进程
 
 - [点击我](/Users/xiongzenghui/Desktop/daydayup/linux_02/03/04/README.md)
 
-#### 5. 守护进程 (daemon)
+##### 5. 守护进程 (daemon)
 
 - [点击我](/Users/xiongzenghui/Desktop/daydayup/linux_02/03/05/README.md)
 
-#### 6. CPU 进程 亲和力
+##### 6. CPU 进程 亲和力
 
 - [点击我](/Users/xiongzenghui/Desktop/daydayup/linux_02/03/06/README.md)
 
-#### 7. execl 函数簇, 执行 外部的 可执行文件
+##### 7. execl 函数簇, 执行 外部的 可执行文件
 
 - [点击我](/Users/xiongzenghui/Desktop/daydayup/linux_02/03/07/README.md)
 
-#### 8. 进程 rlimit
+##### 8. 进程 rlimit
 
 - [点击我](/Users/xiongzenghui/Desktop/daydayup/linux_02/03/08/README.md)
 
-#### 10. 进程间 数据共享 存在的问题
+##### 9. 进程间 数据共享 存在的问题
 
 
 
-#### 11. 进程间 通信(ipc) - Unix api
+##### 10. 进程间 通信(ipc) - Unix api
 
 
 
-#### 12. 进程间 通信(ipc) - SystemV api
+##### 11. 进程间 通信(ipc) - SystemV api
 
 
 
-#### 13. 进程间 通信(ipc) - Posix api
+##### 12. 进程间 通信(ipc) - Posix api
 
 
 
-#### 14. 进程间 通信(ipc) - Socket
+##### 13. 进程间 通信(ipc) - Socket
 
 
 
-#### 15. 进程间 同步与互斥(sync)
-
-### 4. 线程
-
-#### 1. 线程间 通信
+##### 14. 进程间 同步与互斥(sync)
 
 
 
-#### 2. 线程间 同步与互斥
+#### 4. 线程
+
+##### 1. 线程间 通信
 
 
 
-#### 3. 线程池
+##### 2. 线程间 同步与互斥
 
 
 
-### 5. 信号 signal
+##### 3. 线程池
 
 
 
-### 6. socket
+#### 5. 信号 signal
 
 
 
-### 7. I/O 模型
+#### 6. socket
 
 
 
-### 参考资料
+#### 7. I/O 模型
+
+
+
+### 99. 参考资料
 
 - UNIX 环境高级编程
 - UNIX 系统编程手册 (上下两册)
