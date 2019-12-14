@@ -52,10 +52,11 @@
 
 ### 1. multi thread
 
-- [01 - 进程、线程、并行、并发](ios/multi_thread/01/README.md)
-- [02 - 你能接触到的主流 多线程 API](ios/multi_thread/02/README.md)
-- [03- 线程安全 (Thread Safety) 出现的场景](ios/multi_thread/03/README.md)
-- [04 - 线程安全 (Thread Safety) 解决](ios/multi_thread/04/README.md)
+- [01 - 进程、线程、并行、并发](ios/multi_thread/01-init/README.md)
+- [02 - 你能接触到的主流 多线程 API](ios/multi_thread/02-thread-api/README.md)
+- [03- 线程安全 (Thread Safety) 出现的场景](ios/multi_thread/03-safe-generate/README.md)
+- [04 - 脱离 iOS 了解更多的 多线程](ios/multi_thread/04-thread/README.md)
+- [05 - 线程安全 (Thread Safety) 解决](ios/multi_thread/05-safe-solved/README.md)
 
 ### 2. runloop
 
