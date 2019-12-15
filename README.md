@@ -56,7 +56,8 @@
 - [02 - 你能接触到的主流 多线程 API](ios/multi_thread/02-thread-api/README.md)
 - [03- 线程安全 (Thread Safety) 出现的场景](ios/multi_thread/03-safe-generate/README.md)
 - [04 - 脱离 iOS 了解更多的 多线程](ios/multi_thread/04-thread/README.md)
-- [05 - 线程安全 (Thread Safety) 解决](ios/multi_thread/05-safe-solved/README.md)
+- [05 - 参考开源库如何解决 线程安全](ios/multi_thread/05-opensource/README.md)
+- [06 - 线程安全 (Thread Safety) 解决](ios/multi_thread/06-safe-solved/README.md)
 
 ### 2. runloop
 
@@ -291,14 +292,7 @@ if/else/switch/times/break/continue ….
 
 ### 9. 😅 Ruby 设计模式
 
-#### 1. SOLID 原则
-
-- [SOLID 原则](ruby/09/01.md)
-
-#### 2. 设计模式
-
-- [01 - 单例](ruby/09/02/01.md)
-- [02 - 代理](ruby/09/02/02.md)
+..
 
 ### 10. 😉 手把手教你开发并上线一个 Ruby 软件
 
@@ -395,21 +389,19 @@ if/else/switch/times/break/continue ….
 
 
 
-##### 14. 进程间 同步与互斥(sync)
+##### 14. 进程间 互斥
 
 
 
 #### 4. 线程
 
-##### 1. 线程间 通信
+##### 1. 互斥
 
+- [01 - pthread mutex](/Users/xiongzenghui/Desktop/daydayup/linux_02/03/08/README.md)
 
+- [02 - ](/Users/xiongzenghui/Desktop/daydayup/linux_02/03/08/README.md)
 
-##### 2. 线程间 同步与互斥
-
-
-
-##### 3. 线程池
+##### 2. 通信 (同步)
 
 
 
@@ -432,9 +424,24 @@ if/else/switch/times/break/continue ….
 
 
 
-## LLVM
+## 设计模式
+
+### 1. Ruby
+
+#### 1. SOLID 原则
+
+- [SOLID 原则](ruby/09/01.md)
+
+#### 2. 设计模式
+
+- [01 - 单例](ruby/09/02/01.md)
+- [02 - 代理](ruby/09/02/02.md)
+
+### 2. Objective-C
 
 
+
+### 3. C++
 
 
 
