@@ -127,17 +127,17 @@ if/else/switch/times/break/continue ….
 
 ### 6. patch
 
--[01 - patch 生效的条件](08/07/01.md)
--[02 - 打开类, 重写方法实现](08/07/02.md)
--[03 - open class + prepend module](08/07/03.md)
--[04 - refine class + module + using(限制作用域)](08/07/04.md)
--[05 - instance_method + define_method](08/07/05.md)
--[06 - define_method + alias_method + send](08/07/06.md)
--[07 - forwardable + def_delegator](08/07/07.md)
--[08 - 继承 + alias](08/07/08.md)
--[09 - undef + define_method](08/07/09.md)
--[10 - remove_method/undef_method](08/07/10.md)
--[11 - singleton methods](08/07/11.md)
+- [01 - patch 生效的条件](08/07/01.md)
+- [02 - 打开类, 重写方法实现](08/07/02.md)
+- [03 - open class + prepend module](08/07/03.md)
+- [04 - refine class + module + using(限制作用域)](08/07/04.md)
+- [05 - instance_method + define_method](08/07/05.md)
+- [06 - define_method + alias_method + send](08/07/06.md)
+- [07 - forwardable + def_delegator](08/07/07.md)
+- [08 - 继承 + alias](08/07/08.md)
+- [09 - undef + define_method](08/07/09.md)
+- [10 - remove_method/undef_method](08/07/10.md)
+- [11 - singleton methods](08/07/11.md)
 
 
 
