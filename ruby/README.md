@@ -1,32 +1,28 @@
 [TOC]
 
-## 觉得有用给点吧 ~
-
-<img src="dashang.jpg" width ="250" height ="250"/>
-
 
 
 ## 1. 😀 Ruby 这门语言
 
-[点击我](01/01.md)
+- [点击我](01/01.md)
 
 
 
 ## 2. 😁 Ruby 学习中即将接触到的各种概念
 
-[点击我](02/01.md)
+- [点击我](02/01.md)
 
 
 
 ## 3. 😂 使用 RVM 管理 Ruby 开发环境
 
-[点击我](03/01.md)
+- [点击我](03/01.md)
 
 
 
 ## 4. 😨 令初学者疑惑的 require: cannot load such file -- xxx (LoadError)
 
-[点击我](04/01.md)
+- [点击我](04/01.md)
 
 
 
@@ -51,18 +47,19 @@
 - [02 - Bool](06/01/02.md)
 - [03 - nil](06/01/03.md)
 - [04 - Symbol](06/01/04.md)
-- [05 - Array](06/01/05.md)
-- [06 - Hash](06/01/06.md)
+- [05 - Array - 01 - 基础](06/01/05/01.md)
+- [05 - Array - 02 - 高阶](06/01/05/02.md)
+- [06 - Hash - 01 - 基础](06/01/06/01.md)
+- [06 - Hash - 01 - 高阶](06/01/06/02.md)
 - [07 - Struct](06/01/07.md)
 
 ### 2. 变量
 
-[点击我](06/02/01.md)
+- [点击我](06/02/01.md)
 
 ### 3. 常用运算符
 
 - [01 - 单引号 vs 双引号](06/03/01.md)
-
 - [02 - % 运算符](06/03/02.md)
 
 ### 4. 流程控制
@@ -74,17 +71,17 @@ if/else/switch/times/break/continue ….
 - [01 - 全局 (global) 方法](06/05/01.md)
 - [02 - 对象 (instance) 方法](06/05/02.md)
 - [03 - 类 (class) 方法](06/05/03.md)
-- [04 - 单例类 (singleton class) 方法](06/05/04.md)
+- [04 - engin class 方法](08/01.md)
 - [05 - 方法参数](06/05/05.md)
 - [06 - 获取方法](06/05/06.md)
 
 ### 6. 代码块
 
-[点击我](06/06/01.md)
+- [点击我](06/06/01.md)
 
 ### 7. 方法 与 代码块
 
-[点击我](06/07/01.md)
+- [点击我](06/07/01.md)
 
 ### 8. 类与对象
 
@@ -96,156 +93,61 @@ if/else/switch/times/break/continue ….
 
 
 
-## 7.  😄 Ruby 高级语法
+## 7. 😄 模块 (module)
 
-### 1. 模块 (module)
-
-- [01 - 基础使用](07/01/01.md)
-- [02- include、extend、prepend](07/01/02.md)
-- [03 - Gitlab Ruby API 封装](07/01/03.md)
-- [04 - require、require_relative、load、autoload](07/01/04.md)
-
-### 2. 消息
-
-
-- [01 - message send](07/02/01.md)
-
-- [02 - method missing](07/02/02.md)
-
-- [03 - message forward](07/02/03.md)
-
-### 3. DSL
-
-[点击我](07/03.md)
-
-### 4. 各种钩子 (hook)
-
-[点击我](07/04.md)
-
-### 5. patch
-
-[点击我](07/05.md)
+- [01 - 基础使用](07/01.md)
+- [02- include、extend、prepend](07/02.md)
+- [03 - Gitlab Ruby API 封装](07/03.md)
+- [04 - require、require_relative、load、autoload](07/04.md)
 
 
 
-## 8. 😅 Ruby 设计模式
+## 8. 😄 Meta Programming
+
+- [01 - engin (singleton) class](08/01.md)
+- [02 - send](08/02.md)
+- [03 - method_missing](08/03.md)
+- [04 - forwardable::def_delegator()](08/04.md)
+- [05 - 各种钩子 (hook)](08/05.md)
+- [06 - DSL](08/06.md)
+- [07 - patch - 01 - patch 生效的条件](08/07/01.md)
+- [07 - patch - 02 - 打开类, 重写方法实现](08/07/02.md)
+- [07 - patch - 03 - open class + prepend module](08/07/03.md)
+- [07 - patch - 04 - refine class + module + using(限制作用域)](08/07/04.md)
+- [07 - patch - 05 - instance_method + define_method](08/07/05.md)
+- [07 - patch - 06 - define_method + alias_method + send](08/07/06.md)
+- [07 - patch - 07 - forwardable + def_delegator](08/07/07.md)
+- [07 - patch - 08 - 继承 + alias](08/07/08.md)
+- [07 - patch - 09 - undef + define_method](08/07/09.md)
+- [07 - patch - 10 - remove_method/undef_method](08/07/10.md)
+- [07 - patch - 11 - singleton methods](08/07/11.md)
+
+
+
+## 9. 😅 Ruby 设计模式
 
 ### 1. SOLID 原则
 
-[点击我](08/01.md)
+- [SOLID 原则](09/01.md)
 
 ### 2. 设计模式
 
-- [01 - 单例](08/02/01.md)
-- [02 - 代理](08/02/02.md)
+- [01 - 单例](09/02/01.md)
+- [02 - 代理](09/02/02.md)
 
 
 
-
-
-## 9. 😉 手把手教你开发并上线一个 Ruby 软件
+## 10. 😉 手把手教你开发并上线一个 Ruby 软件
 
 - 本地的 开发、调试
-
 - 发布到 rubygems.org
-
 - 本地 调试 Ruby 开源库
 
 
 
-## 10. ⚽️ CocoaPods
+## 11. 😅 开源项目
 
-### 1. cocoapods 工作原理
+### 1. gitlab ruby api
 
-
-
-### 2. cocoapods.gemspec
-
-```ruby
-# encoding: UTF-8
-require File.expand_path('../lib/cocoapods/gem_version', __FILE__)
-require 'date'
-
-Gem::Specification.new do |s|
-  .......................................................
-
-  s.files = Dir["lib/**/*.rb"] + %w{ bin/pod bin/sandbox-pod README.md LICENSE CHANGELOG.md }
-
-  s.executables   = %w{ pod sandbox-pod }
-  s.require_paths = %w{ lib }
-
-  # Link with the version of CocoaPods-Core
-  s.add_runtime_dependency 'cocoapods-core',        "= #{Pod::VERSION}"
-
-  s.add_runtime_dependency 'claide',                '>= 1.0.2', '< 2.0'
-  s.add_runtime_dependency 'cocoapods-deintegrate', '>= 1.0.3', '< 2.0'
-  s.add_runtime_dependency 'cocoapods-downloader',  '>= 1.2.2', '< 2.0'
-  s.add_runtime_dependency 'cocoapods-plugins',     '>= 1.0.0', '< 2.0'
-  s.add_runtime_dependency 'cocoapods-search',      '>= 1.0.0', '< 2.0'
-  s.add_runtime_dependency 'cocoapods-stats',       '>= 1.0.0', '< 2.0'
-  s.add_runtime_dependency 'cocoapods-trunk',       '>= 1.4.0', '< 2.0'
-  s.add_runtime_dependency 'cocoapods-try',         '>= 1.1.0', '< 2.0'
-  s.add_runtime_dependency 'molinillo',             '~> 0.6.6'
-  s.add_runtime_dependency 'xcodeproj',             '>= 1.11.1', '< 2.0'
-
-  ## Version 5 needs Ruby 2.2, so we specify an upper bound to stay compatible with system ruby
-  s.add_runtime_dependency 'activesupport', '>= 4.0.2', '< 5'
-  s.add_runtime_dependency 'colored2',       '~> 3.1'
-  s.add_runtime_dependency 'escape',        '~> 0.0.4'
-  s.add_runtime_dependency 'fourflusher',   '>= 2.3.0', '< 3.0'
-  s.add_runtime_dependency 'gh_inspector',  '~> 1.0'
-  s.add_runtime_dependency 'nap',           '~> 1.0'
-  s.add_runtime_dependency 'ruby-macho',    '~> 1.4'
-
-  s.add_development_dependency 'bacon', '~> 1.1'
-  s.add_development_dependency 'bundler', '~> 1.3'
-  s.add_development_dependency 'rake', '~> 10.0'
-
-  .......................................................
-end
-```
-
-cocoapods 主要由如下几个 gem 组成
-
-- 1) cocoapods-core
-- 2) claide
-- 3) cocoapods-deintegrate
-- 4) cocoapods-downloader
-- 5) cocoapods-plugins
-- 6) cocoapods-search
-- 7) cocoapods-stats
-- 8) cocoapods-trunk
-- 9) cocoapods-try
-- 10) molinillo
-- 11) xcodeproj
-
-### 3. Podfile
-
-cocoapods_podfile
-
-### 4. podspec
-
-cocoapods_podspec
-
-### 5. xcodeproj
-
-
-
-### 6. cocoapods hooks
-
-
-
-### 7. cocoapods-plugins
-
-
-
-### 8. cocoapods wrapper
-
-
-
-
-
-## 11.  🏀 fastlane
-
-
+- [gitlab ruby api](10/README.md)
 
