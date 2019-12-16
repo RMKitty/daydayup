@@ -10,8 +10,8 @@
 
 ## C/C++
 
-[C](ansi_c/README.md)
-[C++](ansi_cpp/README.md)
+- [01 - C](ansi_c/README.md)
+- [02 - C++](ansi_cpp/README.md)
 
 
 
