@@ -104,23 +104,40 @@ if/else/switch/times/break/continue ….
 
 ## 8. 😄 Meta Programming
 
+### 1. engine class
+
 - [01 - engin (singleton) class](08/01.md)
-- [02 - send](08/02.md)
-- [03 - method_missing](08/03.md)
-- [04 - forwardable::def_delegator()](08/04.md)
-- [05 - 各种钩子 (hook)](08/05.md)
-- [06 - DSL](08/06.md)
-- [07 - patch - 01 - patch 生效的条件](08/07/01.md)
-- [07 - patch - 02 - 打开类, 重写方法实现](08/07/02.md)
-- [07 - patch - 03 - open class + prepend module](08/07/03.md)
-- [07 - patch - 04 - refine class + module + using(限制作用域)](08/07/04.md)
-- [07 - patch - 05 - instance_method + define_method](08/07/05.md)
-- [07 - patch - 06 - define_method + alias_method + send](08/07/06.md)
-- [07 - patch - 07 - forwardable + def_delegator](08/07/07.md)
-- [07 - patch - 08 - 继承 + alias](08/07/08.md)
-- [07 - patch - 09 - undef + define_method](08/07/09.md)
-- [07 - patch - 10 - remove_method/undef_method](08/07/10.md)
-- [07 - patch - 11 - singleton methods](08/07/11.md)
+
+### 2. message
+
+- [01 - send](08/02.md)
+- [02 - method_missing](08/03.md)
+
+### 3. DSL
+
+- [DSL](08/06.md)
+
+### 4. delegate
+
+- [forwardable::def_delegator()](08/04.md)
+
+### 5. hook
+
+- [各种钩子 (hook)](08/05.md)
+
+### 6. patch
+
+-[01 - patch 生效的条件](08/07/01.md)
+-[02 - 打开类, 重写方法实现](08/07/02.md)
+-[03 - open class + prepend module](08/07/03.md)
+-[04 - refine class + module + using(限制作用域)](08/07/04.md)
+-[05 - instance_method + define_method](08/07/05.md)
+-[06 - define_method + alias_method + send](08/07/06.md)
+-[07 - forwardable + def_delegator](08/07/07.md)
+-[08 - 继承 + alias](08/07/08.md)
+-[09 - undef + define_method](08/07/09.md)
+-[10 - remove_method/undef_method](08/07/10.md)
+-[11 - singleton methods](08/07/11.md)
 
 
 
