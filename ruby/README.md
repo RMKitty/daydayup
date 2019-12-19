@@ -32,10 +32,13 @@
 - [02 - Bundler 就是 这些 Ruby 软件的 包管理器](05/02/README.md)
 - [03 - Gemfile 语法](05/03/README.md)
 - [04 - bundle install](05/04/README.md)
-- [05 - bundle update](05/05/README.md)
-- [06 - bundle exec](05/06/README.md)
-- [07 - bundler Shelling Out](05/07/README.md)
-- [08 - 其他](05/08/README.md)
+- [05 - bundle info gemspec_name](05/05/README.md)
+- [06 - bundle update](05/06/README.md)
+- [07 - bundle exec](05/07/README.md)
+- [08 - bundler Shelling Out](05/08/README.md)
+- [09 - use Bundler in a single-file Ruby script](05/09/README.md)
+- [10 - bundler plugin hook bundle process](05/10/README.md)
+- [11 - can't find gem bundler with executable bundle](05/11/README.md)
 
 
 
