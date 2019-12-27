@@ -82,7 +82,7 @@ if/else/switch/times/break/continue ….
 
 - [点击我](06/06/01.md)
 
-### 7. 方法 与 代码块
+### 7. 代码块
 
 - [点击我](06/07/01.md)
 
